@@ -19,6 +19,6 @@
   synapse_change_display_name = pkgs.callPackage ./synapse_change_display_name { };
   trelis-gitingest-mcp = pkgs.callPackage ./trelis-gitingest-mcp { };
 
-  # marker-pdf = pkgs.callPackage ./marker-pdf { }; # FIXME
+  marker-pdf = pkgs.callPackage ./marker-pdf { }; # FIXME
   # visual-paradigm-community = pkgs.callPackage ./visual-paradigm-community { }; # FIXME
 }
